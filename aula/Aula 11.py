@@ -1,0 +1,23 @@
+import emoji
+print('  ')
+print('  ')
+print('  ')
+print('  ')
+print('-=-'*10)
+print('\033[4;97mSó trabalhamos com a verdade\033[m')
+print('-=-'*10)
+print('Somos um programa onde trabalhamos somente com a verdade')
+print('Digite SIM para saber uma verdade')
+n = str(input('Posso dizer uma coisa?'))
+if n == 'SIM':
+    print('O Alvaro é um viado , da o rabo toda hora')
+    #print(emoji.emojize('\033[4;35mA Talita é muito gataa:smiling_face_with_heart-eyes:\033[m'))
+else:
+    print('Você não quer saber a verdade?')
+print('  ')
+print('  ')
+print('  ')
+print('  ')
+print('  ')
+print('  ')
+print('  ')
